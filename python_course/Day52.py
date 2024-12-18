@@ -10,7 +10,7 @@ class library:
 
     def addbook(self,Book):
         self.books.append(Book)
-        self.numbooks = self.books.length
+        self.numbooks = len(self.books)
     
     def showinfo(self):
         print(f"The Library has {self.numbooks} Books")

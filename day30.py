@@ -1,3 +1,0 @@
-import ismail
-ismail.welcome()
-
